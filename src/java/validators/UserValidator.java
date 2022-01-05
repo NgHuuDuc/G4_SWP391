@@ -5,10 +5,14 @@
  */
 package validators;
 
+import modules.entities.Account;
+
 /**
  *
  * @author Admin
  */
 public class UserValidator {
-    
+    public boolean checkAccount(Account account){
+        return true;
+    }
 }
